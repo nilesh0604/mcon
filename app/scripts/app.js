@@ -1,5 +1,8 @@
-var app = angular.module('mcon', ['ui.bootstrap'])
+"use strict";
+
+angular.module('mcon', ['ui.bootstrap'])
     .controller('MainCtrl', function($scope) {
+
         $scope.employees = [{
             'id': 1,
             'name': 'Nilesh Shinde',
@@ -23,7 +26,7 @@ var app = angular.module('mcon', ['ui.bootstrap'])
             'dob': '08-02-1982'
         }];
 
-        $scope.showDetails = function(e){
-        	alert("Employee Name : " + e.employee.name)
+        $scope.showDetails = function(current){
+        	window.alert("Employee Name : " + current.employee.name);
         };
-    })
+    });

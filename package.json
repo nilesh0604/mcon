@@ -1,0 +1,28 @@
+{
+  "name": "mcon",
+  "version": "1.0.0",
+  "description": "accordion component",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nilesh0604/mcon.git"
+  },
+  "author": "Nilesh Shinde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nilesh0604/mcon/issues"
+  },
+  "homepage": "https://github.com/nilesh0604/mcon#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-karma": "^2.0.0",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.5.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4"
+  }
+}

@@ -2,8 +2,8 @@
 <html ng-app="mcon">
 
 <head>
-    <script src="scripts/angular.js"></script>
-    <script src="scripts/angular-ui.js"></script>
+    <script src="vendor/angular.js"></script>
+    <script src="vendor/angular-ui.js"></script>
     <script src="scripts/app.js"></script>
     <link href="styles/bootstrap.css" rel="stylesheet">
 </head>
@@ -12,7 +12,7 @@
     <div ng-controller="MainCtrl">
         <div accordion>
             <div ng-repeat="employee in employees" accordion-group class="accord" heading="{{employee.name}}">
-                <span ng-click="showDetails(e)">
+                <span ng-click="showDetails(this)">
             		Employee ID: {{employee.id}}
                 <br> Employee Designation: {{employee.designation}}
                 <br> Employee DOB: {{employee.dob}}
